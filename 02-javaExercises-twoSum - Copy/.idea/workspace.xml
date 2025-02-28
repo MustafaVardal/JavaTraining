@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20c9fed8-a5c9-4dca-8f93-7960c9653bee" name="Changes" comment="" />
+    <list default="true" id="20c9fed8-a5c9-4dca-8f93-7960c9653bee" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../01-javaExercises-twoSum/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../01-javaExercises-twoSum/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-javaExercises-twoSum/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../01-javaExercises-twoSum/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,12 +22,12 @@
     &quot;assignee&quot;: &quot;MustafaVardal&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:MustafaVardal/JavaTraining.git",
-    "accountId": "3f505b5f-f642-4e98-ad78-03d39629c35f"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:MustafaVardal/JavaTraining.git&quot;,
+    &quot;accountId&quot;: &quot;3f505b5f-f642-4e98-ad78-03d39629c35f&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -42,7 +45,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/JavaTraining/02-javaExercises-twoSum - Copy",
+    "last_opened_file_path": "C:/JavaTraining/02-javaExercises-palindrome",
     "onboarding.tips.debug.path": "C:/JavaTraining/01-javaExercises-twoSum/src/Main.java",
     "settings.editor.selected.configurable": "vcs.Subversion"
   }
@@ -50,10 +53,21 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="01-javaExercises-twoSum" />
+      <module name="01-javaExercises-palindromeNumber" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="01-javaExercises-palindromeNumber" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="01-javaExercises-palindromeNumber" />
+      <option name="filePath" />
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
@@ -92,7 +106,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>17</line>
+          <line>16</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
