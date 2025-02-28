@@ -24,7 +24,8 @@ public class Main {
             int reversed =0;
 
             while (num > reversed){
-                reversed = reversed * 10 + num % 10;
+                int remainder = num %10;
+                reversed = reversed * 10 + remainder;
                 num /= 10;
             }
             return (num == reversed) || (num == reversed / 10);
