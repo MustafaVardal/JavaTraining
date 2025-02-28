@@ -17,7 +17,7 @@ public class Main {
     }
 
     private static boolean isPalindrome(int num) {
-            if (num <0){
+            if (num <0 || num!=0 && num%10==0){
                 return  false;
             }
 
