@@ -1,7 +1,4 @@
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Hashtable;
-import java.util.Map;
+import java.util.*;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -9,26 +6,35 @@ public class Main {
     public static void main(String[] args) {
 
 
-        int num = -121;
+        String s = "}{";
 
 
-        System.out.println(num+ "\n"+ "Palindrome number? \n" + num + " -> " + isPalindrome(num));
+        System.out.println(s+ "\n"+ "Is it valid ? " +"\n" + s + " -> " + isValid(s));
 
     }
 
-    private static boolean isPalindrome(int num) {
-            if (num <0 || num!=0 && num%10==0){
-                return  false;
-            }
 
-            int reversed =0;
+    private static boolean isValid(String s) {
+        Stack<Character> stack = new Stack<>();
 
-            while (num > reversed){
-                int remainder = num %10;
-                reversed = reversed * 10 + remainder;
-                num /= 10;
+        Map<Character, Character> map = new HashMap<>();
+        map.put(')', '(');
+        map.put('}', '{');
+        map.put(']', '[');
+
+        for (char c: s.toCharArray()){
+            if (map.containsValue(c)){
+                stack.push(c);
+            } else if (map.containsKey(c)) {
+                if (stack.isEmpty() || map.get(c) != stack.pop()){
+                    return false;
+                }
+
             }
-            return (num == reversed) || (num == reversed / 10);
+        }
+
+        return stack.isEmpty();
     }
+
 }
 
