@@ -1,0 +1,1 @@
+We are using stack becuase of lifo we cna use for each of the character position when we use HashMap. This is providing us structural design to solve the problem. Also it is good to understand containsKey in built method.
