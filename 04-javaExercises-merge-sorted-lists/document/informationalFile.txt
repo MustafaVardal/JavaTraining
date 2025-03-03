@@ -1,1 +1,20 @@
-We are using stack becuase of lifo we cna use for each of the character position when we use HashMap. This is providing us structural design to solve the problem. Also it is good to understand containsKey in built method.
+We have ListNode object to use linked list for this example. Unfortunately, java does not exist any pointer.
+But do not worry for that we can create our object as for same mission.
+ListNode will be helper to use linkedlist for this example.
+After create a listNode next, and var.
+
+Now we need to use our example of question.
+For this;
+    We are creating mergeTwoList private method.
+    And this method has 2 different lists as they are representing to merging two list.
+    Firstly we create a new object with has one parameter.
+    It is starting -1 because it should start from not 0 index.
+    It should start from -1 because of pointer.
+    We assign new object to current value as it is.
+    Then our loop will start and we will add some business cases.
+
+    After writing a rules of object. We will go one step away from starting point.
+
+    Then we are just attempt our instance for next value. and try to merge with our private method.
+    Lastly, write down as a mergedList.
+
