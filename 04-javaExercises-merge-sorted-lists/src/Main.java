@@ -1,39 +1,41 @@
-import java.util.*;
+import trainingQuestion.ListNode;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
 
 
-        String s = "}{";
+        int val = 1;
+        int val2 = 23456789;
+        ListNode list1 = new ListNode(val);
+        ListNode list2 = new ListNode(val2);
 
+        ListNode mergedList = mergeTwoLists(list1, list2);
 
-        System.out.println(s+ "\n"+ "Is it valid ? " +"\n" + s + " -> " + isValid(s));
+        System.out.println(mergedList.val);
 
     }
 
+    private static ListNode mergeTwoLists(ListNode list1, ListNode list2) {
 
-    private static boolean isValid(String s) {
-        Stack<Character> stack = new Stack<>();
 
-        Map<Character, Character> map = new HashMap<>();
-        map.put(')', '(');
-        map.put('}', '{');
-        map.put(']', '[');
+        ListNode dummy = new ListNode(-1);
+        ListNode current = dummy;
 
-        for (char c: s.toCharArray()){
-            if (map.containsValue(c)){
-                stack.push(c);
-            } else if (map.containsKey(c)) {
-                if (stack.isEmpty() || map.get(c) != stack.pop()){
-                    return false;
-                }
-
+        /*
+        if (list1 != null & list2 != null) {
+            if (list1.val < list2.val) {
+                list1.next = mergeTwoLists(list1.next, list2);
+                return list1;
+            } else {
+                list2.next = mergeTwoLists(list1, list2.next);
+                return list2;
             }
         }
-
-        return stack.isEmpty();
+        if (list1 == null) {
+            return list2;
+        }
+        return list1;
+*/
     }
 
 }
