@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20c9fed8-a5c9-4dca-8f93-7960c9653bee" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../03-javaExercises-valid-parentheses/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-javaExercises-valid-parentheses/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/out/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/JavaTraining/04-javaExercises-merge-sorted-lists/src",
+    "last_opened_file_path": "C:/JavaTraining/05-javaExercises-best-time-to-buy-and-sell-stock/src",
     "onboarding.tips.debug.path": "C:/JavaTraining/01-javaExercises-twoSum/src/Main.java",
     "settings.editor.selected.configurable": "vcs.Subversion"
   }

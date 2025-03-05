@@ -7,31 +7,17 @@ public class Main {
 
 
     public static boolean isPalindrome(String s){
+        StringBuilder sb = new StringBuilder();
 
-        if (s.isEmpty()){
-            return true;
-        }
-
-        int firstValue = 0;
-        int lastValue = s.length()-1;
-
-        while (firstValue<=lastValue){
-            char currentFirst = s.charAt(firstValue);
-            char currentLast = s.charAt(lastValue);
-
-            if (!Character.isLetterOrDigit(currentFirst)){
-                firstValue++;
-            } else if (!Character.isLetterOrDigit(currentLast)) {
-                lastValue--;
-            } else {
-                if (Character.toLowerCase(currentFirst) != Character.toLowerCase(currentLast)){
-                    return false;
-                }
-            }
-            firstValue++;
-            lastValue--;
-        }
-        return true;
+       for (char ch : s.toCharArray()){
+           if (Character.isLetterOrDigit(ch)){
+               sb.append(Character.toLowerCase(ch));
+           }
+       }
+       if (sb.toString().equals(sb.reverse().toString())){
+           return true;
+       }
+       return false;
     }
 }
 

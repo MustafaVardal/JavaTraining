@@ -6,16 +6,36 @@
   <component name="ChangeListManager">
     <list default="true" id="20c9fed8-a5c9-4dca-8f93-7960c9653bee" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../04-javaExercises-merge-sorted-lists/src/out/.idea/out.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trainingQuestion/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trainingQuestion/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trainingQuestion/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trainingQuestion/.idea/trainingQuestion.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../04-javaExercises-merge-sorted-lists/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-javaExercises-merge-sorted-lists/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../04-javaExercises-merge-sorted-lists/src/out/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-javaExercises-merge-sorted-lists/src/out/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../05-javaExercises-best-time-to-buy-and-sell-stock/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-javaExercises-best-time-to-buy-and-sell-stock/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-javaExercises-best-time-to-buy-and-sell-stock/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-javaExercises-best-time-to-buy-and-sell-stock/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-javaExercises-best-time-to-buy-and-sell-stock/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-javaExercises-best-time-to-buy-and-sell-stock/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../06-javaExercises-best-time-to-buy-and-sell-stock/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-javaExercises-best-time-to-buy-and-sell-stock/document/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-javaExercises-best-time-to-buy-and-sell-stock/document/.idea/document.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-javaExercises-best-time-to-buy-and-sell-stock/document/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-javaExercises-best-time-to-buy-and-sell-stock/document/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-javaExercises-best-time-to-buy-and-sell-stock/document/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-javaExercises-best-time-to-buy-and-sell-stock/out/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-javaExercises-best-time-to-buy-and-sell-stock/out/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-javaExercises-best-time-to-buy-and-sell-stock/out/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-javaExercises-best-time-to-buy-and-sell-stock/out/.idea/out.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-javaExercises-best-time-to-buy-and-sell-stock/out/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-javaExercises-best-time-to-buy-and-sell-stock/src/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-javaExercises-best-time-to-buy-and-sell-stock/src/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-javaExercises-best-time-to-buy-and-sell-stock/src/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-javaExercises-best-time-to-buy-and-sell-stock/src/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-javaExercises-best-time-to-buy-and-sell-stock/src/05-javaExercises-best-time-to-buy-and-sell-stock.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-javaExercises-best-time-to-buy-and-sell-stock/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-javaExercises-best-time-to-buy-and-sell-stock/src/out/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-javaExercises-best-time-to-buy-and-sell-stock/src/out/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-javaExercises-best-time-to-buy-and-sell-stock/src/out/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-javaExercises-best-time-to-buy-and-sell-stock/src/out/.idea/out.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-javaExercises-best-time-to-buy-and-sell-stock/src/out/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-javaExercises-best-time-to-buy-and-sell-stock/src/trainingQuestion/question.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trainingQuestion/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/trainingQuestion/question.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +76,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/JavaTraining/06-javaExercises-best-time-to-buy-and-sell-stock/src/trainingQuestion",
+    "last_opened_file_path": "C:/JavaTraining/06-javaExercises-valid-palindrome",
     "onboarding.tips.debug.path": "C:/JavaTraining/01-javaExercises-twoSum/src/Main.java",
     "settings.editor.selected.configurable": "vcs.Subversion"
   }
