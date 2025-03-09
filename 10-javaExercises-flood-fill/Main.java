@@ -53,23 +53,20 @@ public class Main {
                 || image[row][column] != originalColorOfIndexes) {
 
             return;
+            // keep continue if this condition is observing.
         }
 
         image[row][column] = color;
-        // initial image indexes.(first node for stack logics(fifo) push and pop)
+        // change the color
 
         /// Deep first searching logic.
         dfs(image, row - 1, column, originalColorOfIndexes, color);
-        // first left node will finish and keep with left until row become an equal with image of row of length.
-        // until row become an equal with image of row of length.
+        // direction for row of upper nodes because deep first search left will initialize left.
         dfs(image, row + 1, column, originalColorOfIndexes, color);
-        // second left to right nodes will be finished until row become an equal with image of row of length.
-        // until row become an equal with image of row of length.
+        // direction for row of down nodes.
         dfs(image, row, column - 1, originalColorOfIndexes, color);
-        // after finished left nodes. then start with first of right nodes and keep continue with other left nodes.
-        // Until row become an equal with image of row of length.
+        // direction for node of left because this is required if you want to use dfs.
         dfs(image,row, column + 1, originalColorOfIndexes, color);
-        // after finished right of left nodes, let's start process for right to right nodes.
-        // Until row become an equal with image of row of length.
+        // then check direction of node of right
     }
 }
