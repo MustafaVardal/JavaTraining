@@ -33,10 +33,10 @@ public class Main {
         int rowsOfImageIndex = image.length;
         int columnsOfImageIndex = image[0].length;
 
-        // convert2DTo1DIndexOfArray 1d array will use to provide to check point of column and row as a matrix.
+        // convert2DTo1DIndexOfArray 1d array will use to provide to check-point of column and row as a matrix.
         int originalColorOfIndexes = image[row][column];
 
-        // if this is not equal with color. Validation will be cancelled
+        // if this is equal with color. No need to change color
         if (color == originalColorOfIndexes) {
             return image;
         }
