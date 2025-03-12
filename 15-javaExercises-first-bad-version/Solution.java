@@ -6,18 +6,19 @@ public class Solution extends  VersionControl{
 
     public int findFirstBadVersion(int totalPointer) {
 
-        int leftPointer = 0;
+
+        int leftPointer = 1;
         int rightPointer = totalPointer;
 
-        while (rightPointer - leftPointer > 1) {
+        while (leftPointer <= rightPointer) {
             int mid = (rightPointer + leftPointer) / 2;
 
             if (isBadVersion(mid)) {
-                rightPointer = mid;
+                rightPointer = mid -1;
             } else {
-                leftPointer = mid;
+                leftPointer = mid +1;
             }
         }
-        return rightPointer;
+        return leftPointer;
     }
 }

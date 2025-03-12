@@ -3,7 +3,7 @@ public class Main {
 
     public static void main(String[] args) {
        int n = 10;
-       int firstBadVersion = 4;
+       int firstBadVersion = -1;
 
        Solution solution = new Solution(firstBadVersion);
 
