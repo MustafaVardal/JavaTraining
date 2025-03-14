@@ -15,6 +15,26 @@ public class Main {
         System.out.println("Number of position when the computing is happening will be -> " + Arrays.toString(hashTableMethod(nums, target)) +
                 "\nTarget -> " + target );
 
+        System.out.println("Number of position when the computing is happening will be -> " + Arrays.toString(twoSum(nums, target)) +
+                "\nTarget -> " + target );
+
+    }
+
+    private static int[] twoSum (int[] nums, int target){
+
+        HashMap<Integer, Integer> seen = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            seen.put(nums[i], i);
+        }
+        for (int i = 0; i < nums.length; i++) {
+            int curr = nums[i];
+            int x =  target - curr;
+            if(seen.containsKey(x) && seen.get(x) != i){
+                return new int[]{i, seen.get(x)};
+            }
+        }
+
+        return new int[]{};
     }
 
     private static int[] hashTableMethod(int[] nums, int target) {
