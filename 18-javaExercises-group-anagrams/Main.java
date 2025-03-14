@@ -19,7 +19,7 @@ public class Main {
         for (String string : str) {
             int[] alpha = new int[26];
             for (char c: string.toCharArray()) {
-                alpha[c - 'a']++;
+                alpha[c - 'a']++; // ascii value --> 0 and counting how many character we have.
             }
             String key = Arrays.toString(alpha);
             map.putIfAbsent(key, new ArrayList<>());
