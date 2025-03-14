@@ -1,35 +1,31 @@
-import java.util.HashSet;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
 
 public class Main {
 
     public static void main(String[] args) {
 
+        String[] str = {"eat","tea"};
 
-        HashSet<Integer> hNum = new HashSet<>();
-        HashSet<Integer> hNum2 =new HashSet<>();
+        System.out.println(groupAnagrams(str));
 
+    }
 
-        for (int i = 0; i <= 10; i++) {
+    public static List<List<String>> groupAnagrams(String[] str){
+        HashMap< String, List<String>> map = new HashMap<>();
 
-            if (hNum.contains(hNum2)){
-                System.out.println(hNum);
+        for (String string : str) {
+            int[] alpha = new int[26];
+            for (char c: string.toCharArray()) {
+                alpha[c - 'a']++;
             }
-            hNum.add(i);
-            hNum2.add(i+9);
+            String key = Arrays.toString(alpha);
+            map.putIfAbsent(key, new ArrayList<>());
+            map.get(key).add(string);
         }
-
-
-        if (hNum.isEmpty()){
-            System.out.println("Empty");
-        } else if (hNum.contains(1)) {
-            System.out.println("It is contains " + hNum);
-        }
-
-        hNum.remove(2);
-        System.out.println(hNum);
-
-
-        System.out.println(hNum2.size());
+        return new ArrayList<>(map.values());
 
     }
 }
