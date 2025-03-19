@@ -6,7 +6,15 @@ public class RelatedDsaTopic {
         String a  = "   Hello World ";
         System.out.println(a.trim());
         System.out.println(a.lastIndexOf('e'));
+        String b = "My name is donkey";
 
+
+        System.out.println(a.compareTo(b));
+        System.out.println(a.compareToIgnoreCase(b));
+
+        System.out.println(a.equals(b));
+
+        System.out.println(a.concat("\n"+ b));
 
         List<Character> letters = new ArrayList<>();
         for (int i = a.length()-1; i >= 0; i--){
@@ -17,7 +25,7 @@ public class RelatedDsaTopic {
         for (char letter:letters){
             System.out.print(letter);
         }
-        System.out.println();
+
 
 
     }
