@@ -32,7 +32,7 @@ public class RelatedDsaTopic {
             int val = 2;
 
             for (int k = 1; k <=n ; k++) {
-                val = val * (n - k);
+                val =  (k);
                 row.add(val);
             }
             as.add(row);
