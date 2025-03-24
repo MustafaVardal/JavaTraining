@@ -19,12 +19,9 @@ public class RelatedTopic {
         }
 
         int mapSizeA[] = new int[128];
-        int mapSizeB[] = new int[128];
 
         for (char ca : charsA) {
             mapSizeA[ca] = i+1;
-            System.out.println(mapSizeA[ca]);
-
         }
 
 
