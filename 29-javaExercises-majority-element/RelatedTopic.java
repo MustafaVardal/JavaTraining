@@ -1,12 +1,28 @@
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Random;
 
 public class RelatedTopic {
 
     public static void main(String[] args) {
-        int[] nums = {3,3,3,1,1,1,1,2,2};
 
-        int n = nums.length;
+        HashMap<Integer, Integer> map = new HashMap<>();
+        int[] nums = {3,3,3,1,1,1,1,2,2};
+        for (int num : nums) {
+            map.put(num, map.getOrDefault(num, 0) +1);
+        }
+        for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
+            System.out.println(entry);
+        }
+
+
+
+
+
+
+
+
+      /*  int n = nums.length;
         int[] bit = new int[32];
         for (int num : nums) {
             for (int i = 0; i < 32; i++) {
@@ -50,9 +66,7 @@ public class RelatedTopic {
 
         }
 
+
+*/
     }
-
-
-
-
 }
