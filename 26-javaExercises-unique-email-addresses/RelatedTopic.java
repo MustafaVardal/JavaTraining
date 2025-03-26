@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class RelatedTopic {
 
     public static void main(String[] args) {
@@ -36,5 +38,27 @@ public class RelatedTopic {
         for (String string : arr4) {
             System.out.println(string);
         }
+        System.out.println();
+        String[] strings = {"joedoe@mail.com", "zoepoe@mail.com","diobio@mail.com"};
+
+
+        System.out.println(strings[0]);
+
+        String a= strings[0];
+        String[] b = a.split("@");
+        String name = b[0];
+        String all = name.replace(".","")+ "@" + b[1];
+
+        System.out.println(all);
+
+
+        String[] strings1 = {"","asdad.dsadssa","dasdadsaw2/dsasd"};
+
+        String string = strings1[1];
+        String[] strings2 = string.split("\\.");
+        String string1 = strings2[1];
+        String each = string1 + strings2[1];
+
+        System.out.println(string1);
     }
 }
