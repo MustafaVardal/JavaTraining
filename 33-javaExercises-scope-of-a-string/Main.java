@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println(scoreOfString("DAS"));
+        System.out.println(scoreOfString("DAScd"));
     }
 
     public static int scoreOfString(String s){

@@ -9,21 +9,21 @@ public class Main {
     }
 
     public static int[] sortArray(int[] nums) {
-        mergeSort(nums, 0, nums.length - 1);
+        divide(nums, 0, nums.length - 1); // merge sort will begin
         return nums;
     }
 
-    private static void mergeSort(int[] arr, int left, int right) {
+    private static void divide(int[] arr, int left, int right) {
         if (left >= right) {
             return;
         }
         int mid = (left + right) / 2;
-        mergeSort(arr, left, mid);
-        mergeSort(arr, mid + 1, right);
-        merge(arr, left, mid, right);
+        divide(arr, left, mid);
+        divide(arr, mid + 1, right);
+        conquer(arr, left, mid, right);
     }
 
-    private static void merge(int[] arr, int left, int mid, int right) {
+    private static void conquer(int[] arr, int left, int mid, int right) {
         int n1 = mid - left + 1;
         int n2 = right - mid;
         int[] leftPart = new int[n1];
