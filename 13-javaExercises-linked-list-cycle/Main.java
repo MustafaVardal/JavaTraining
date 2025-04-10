@@ -7,24 +7,26 @@ public class Main {
         ListNode head1 = new ListNode(1);
         head1.next = new ListNode(2);
         head1.next.next = new ListNode(3);
-        head1.next.next.next = new ListNode(4);
+        head1.next.next.next = new ListNode(-4);
 
         System.out.println("Is this cycle LinkedList? " + hasCycle(head1));
 
     }
 
-    public static boolean hasCycle(ListNode head){
+    public static boolean hasCycle(ListNode head) {
 
-        HashSet<ListNode> visited_nodes = new HashSet<>();
-        ListNode currNode = head;
+        ListNode slow = head;
+        ListNode fast = head;
 
-        while (currNode != null){
-            if (visited_nodes.contains(currNode)){
+        while (fast != null && fast.next != null){
+            slow = slow.next;
+            fast = fast.next.next;
+            if (slow == fast){
                 return true;
             }
-            visited_nodes.add(currNode);
-            currNode = currNode.next;
         }
+
         return false;
     }
+
 }
